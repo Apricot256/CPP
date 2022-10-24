@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/* Function -> Reverse array
+int a       : intput array
+int reversed: array will be reversed
+*/
 void Reverse(int *a, int *reversed, int n);
 
 int main(int argc, char const *argv[]){

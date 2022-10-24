@@ -6,6 +6,9 @@
 
 using namespace std;
 
+/* Function -> polt on cli
+double y : y-coordinate you want to draw
+*/
 void plot(double y){
     for (int i = 0; i < WIDTH; i++){
         if(abs(i-(sin(y)*(WIDTH/2)+WIDTH/2)) < EPS)cout << "*";

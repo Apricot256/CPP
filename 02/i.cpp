@@ -2,6 +2,10 @@
 
 using namespace std;
 
+/* Function 
+float x: x
+return 0 when x < 0, 1 when x >= 0
+*/
 float SetpFunction(float x);
 
 int main(int argc, char const *argv[]){

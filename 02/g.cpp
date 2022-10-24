@@ -5,6 +5,12 @@ using namespace std;
 
 int x[4096], w[4096];
 
+/* Function 
+int *x: array x
+int *w: array w
+int  n: size of arrays
+return -> Pi(xi*wi)
+*/
 int MyFunction(int *x, int *w, int n);
 
 int main(int argc, char const *argv[]){

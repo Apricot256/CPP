@@ -10,7 +10,7 @@ int main(int argc, char const *argv[]){
     cout << "*v : " << *((int *)v) << endl;
     p = (int*)v;
     cout << "*p : " << *p << endl;
-    p++;
+    *p+=1;
     cout << "i  : " << i << endl;
     return 0;
 }

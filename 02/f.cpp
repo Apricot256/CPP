@@ -5,6 +5,12 @@ using namespace std;
 
 double x[4096], w[4096];
 
+/* Function 
+int *x: array x
+int *w: array w
+int  n: size of arrays
+return -> sigma(xi+wi)
+*/
 double MyFunction(double *x, double *w, int n);
 
 int main(int argc, char const *argv[]){
