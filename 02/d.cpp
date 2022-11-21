@@ -10,3 +10,5 @@ int main(int argc, char const *argv[]){
     cout << *(p+n-1) << endl;
     return 0;
 }
+
+

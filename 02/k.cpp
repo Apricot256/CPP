@@ -23,3 +23,4 @@ int main(int argc, char const *argv[]){
 void Reverse(int *a, int *reversed, int n){
     for (int i = 0; i < n; i++)reversed[n-i-1] = a[i];
 }
+

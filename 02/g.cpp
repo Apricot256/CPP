@@ -33,3 +33,5 @@ int MyFunction(int *x, int *w, int n){
     for (int i = 0; i < n; i++)product *= (x[i]*w[i]);
     return product;
 }
+
+

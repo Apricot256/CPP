@@ -51,3 +51,4 @@ void InitArray(float *x, float *w, int n){
 float SetpFunction(float x){
     return (x < 0)? 0.0 : 1.0;
 }
+

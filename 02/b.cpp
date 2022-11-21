@@ -17,3 +17,4 @@ int main(int argc, char const *argv[]){
     cout << "*p : " << *p << endl;
     return 0;
 }
+
